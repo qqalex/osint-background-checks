@@ -5,14 +5,13 @@
 # June 13th 2024
 
 def searchByName(fName=None, mName=None, lName=None, city=None, state=None):
-    query = "https://www.cyberbackgroundchecks.com/people/"
-
-    city = city.replace(" ", "-")
-    state = state.replace(" ", "-")
-
     if lName == None:
         print("Error: Last name is required")
         return
+    
+    query = "https://www.cyberbackgroundchecks.com/people/"
+    city = city.replace(" ", "-")
+    state = state.replace(" ", "-")
     
     query += f"{fName}-{mName}-{lName}"
 
