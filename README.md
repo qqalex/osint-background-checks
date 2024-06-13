@@ -8,5 +8,4 @@ Search with
   - phone #
   - email
 
-![image](https://github.com/qqalex/osint-background-checks/assets/86507185/75b9159c-1c91-4f50-a557-c1659c5c604f)
-
+![image](https://github.com/qqalex/osint-background-checks/assets/86507185/eeb5a56d-2475-4841-bd93-cb7bbebe842e)
