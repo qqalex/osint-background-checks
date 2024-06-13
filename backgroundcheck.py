@@ -22,7 +22,8 @@ def searchByName(fName=None, mName=None, lName=None, city=None, state=None):
 
 
 def searchByAddress(address, city, state):
-    return f"https://www.cyberbackgroundchecks.com/address/{address}-{city}-{state}"
+    address = address.replace(" ", "-")
+    return f"https://www.cyberbackgroundchecks.com/address/{address}-{city}/{state}"
 
 def searchByPhone(phoneNum):
     return f"https://www.cyberbackgroundchecks.com/phone/{phoneNum}"
