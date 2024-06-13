@@ -11,7 +11,7 @@ def searchByName(fName=None, mName=None, lName=None, city=None, state=None):
         print("Error: Last name is required")
         return
     
-    query += fName + mName + lName
+    query += f"{fName}-{mName}-{lName}"
 
     if state is not None:
         query += "/" + state
