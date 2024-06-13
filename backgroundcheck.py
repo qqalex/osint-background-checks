@@ -7,6 +7,9 @@
 def searchByName(fName=None, mName=None, lName=None, city=None, state=None):
     query = "https://www.cyberbackgroundchecks.com/people/"
 
+    city = city.replace(" ", "-")
+    state = state.replace(" ", "-")
+
     if lName == None:
         print("Error: Last name is required")
         return
@@ -23,7 +26,10 @@ def searchByName(fName=None, mName=None, lName=None, city=None, state=None):
 
 def searchByAddress(address, city, state):
     address = address.replace(" ", "-")
-    return f"https://www.cyberbackgroundchecks.com/address/{address}-{city}/{state}"
+    city = city.replace(" ", "-")
+    state = state.replace(" ", "-")
+
+    return f"https://www.cyberbackgroundchecks.com/address/{address}/{city}/{state}"
 
 def searchByPhone(phoneNum):
     return f"https://www.cyberbackgroundchecks.com/phone/{phoneNum}"
