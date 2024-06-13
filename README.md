@@ -1,6 +1,6 @@
 # osint-background-checks
 Quickly generate background check URLs for CyberBackgroundChecks.com.
-Easily create thousands of background CyberBackgroundCheck links in seconds.
+Easily create thousands of CyberBackgroundCheck links in seconds.
 
 Search with
   - name
