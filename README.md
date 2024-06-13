@@ -1,6 +1,6 @@
 # osint-background-checks
 Quickly generate background check URLs for CyberBackgroundChecks.com.
-Easily create thousands of CyberBackgroundCheck links in seconds.
+Easily create thousands of background-check links in seconds.
 
 Search with
   - name
@@ -8,5 +8,4 @@ Search with
   - phone #
   - email
 
-![image](https://github.com/qqalex/osint-background-checks/assets/86507185/75b9159c-1c91-4f50-a557-c1659c5c604f)
-
+![image](https://github.com/qqalex/osint-background-checks/assets/86507185/eb629128-1448-4672-a9e4-e6a9832f8d98)
