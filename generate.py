@@ -8,6 +8,7 @@ def searchByName(fName=None, mName=None, lName=None, city=None, state=None):
     query = "https://www.cyberbackgroundchecks.com/people/"
 
     if lName == None:
+        print("Error: Last name is required")
         return
     
     query += fName + mName + lName
