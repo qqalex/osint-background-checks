@@ -1,5 +1,6 @@
 # osint-background-checks
-Quickly generate background checks for CyberBackgroundChecks.com
+Quickly generate background check URLs for CyberBackgroundChecks.com.
+Intended for OSINT gathering on medium to large datasets.
 
 Search with
   - name
